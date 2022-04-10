@@ -13,7 +13,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.abumalick.exponotifeeexample"
@@ -28,6 +30,13 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["./plugin/build"]
+    "plugins": [
+      "./plugin/build"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "cc4c6929-a197-4a81-885d-457e431d2291"
+      }
+    }
   }
 }
