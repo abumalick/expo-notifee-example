@@ -7,7 +7,7 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "postinstall": "tsc -p plugins/tsconfig.json"
+    "postinstall": "tsc -p plugin/tsconfig.json"
   },
   "dependencies": {
     "@notifee/react-native": "^5.1.0",
